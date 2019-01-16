@@ -4,7 +4,7 @@
 
 HP ZHAN99 WorkStation G1（惠普战99）
 
-###主要配置
+### 主要配置
 
 * Intel Core I7-8750h 6C12T
 * Crucial DDR4 2666MHz 8G*2
@@ -13,7 +13,7 @@ HP ZHAN99 WorkStation G1（惠普战99）
 * Broadcom BCM94352hmb （M.2/NGFF)
 * Samsung pm961
 
-###完成功能
+### 完成功能
 
 * CPU12阶睿频
 * 内建视网膜显示器
@@ -30,12 +30,12 @@ HP ZHAN99 WorkStation G1（惠普战99）
 * 触摸板
 * 睡眠以及唤醒
 
-###未完成：
+### 未完成：
 
 * 指纹无解
 * 雷雳、读卡器没有驱动
 
-###总体描述：
+### 总体描述：
 
 **基本完美**
 
