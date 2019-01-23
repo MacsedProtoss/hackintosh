@@ -1,5 +1,9 @@
 # hackintosh
 
+## 系统支持
+
+macOS mojave 10.14Beta - 10.14.3(18D42)
+
 ## 平台简介
 
 HP ZHAN99 WorkStation G1（惠普战99）
