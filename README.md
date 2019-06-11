@@ -2,7 +2,7 @@
 
 ## 系统支持
 
-macOS mojave 10.14Beta - 10.14.3(18D42)
+macOS mojave 10.14Beta - 10.14.5(18F132)
 
 ## 平台简介
 
