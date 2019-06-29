@@ -3,7 +3,7 @@
 ## 系统支持
 
 macOS mojave 10.14Beta - 10.14.5(18F132) ——下载Mojave版本
-macOS Catalina 10.15Beta(19A471t) ——下载Catalina版本
+macOS Catalina 10.15Beta(19A487m) ——下载Catalina版本
 
 ## 平台简介
 
@@ -13,22 +13,23 @@ HP ZHAN99 WorkStation G1（惠普战99）
 
 * Intel Core I7-8750h 6C12T
 * Crucial DDR4 2666MHz 8G*2
-* UHD630 （Mojave目前仍不支持N卡）
+* UHD630 （N卡已凉）
 * Realtek Alc295
-* Broadcom BCM94352hmb （M.2/NGFF)
+* Broadcom BCM94360CS2 （Mac拆机卡+转接m.2卡，我之前用的dw1560现在价格炒得太高了，我卖了还赚了一笔，而且dw1560在Catalina里面蓝牙有问题，现在建议大家买我用的这个了，不过淘宝已经把它从35炒到了100多，真黑心）
 * Samsung pm961
 
 ### 完成功能
 
-**Mojave:**
+**Mojave&Catalina:**
 
 * CPU12阶睿频
-* 内建视网膜显示器
+* 内建视网膜显示器（内建OK，视网膜要自己运行脚本）
+* UHD630 2048M
 * AppleALC驱动声卡
-* Wi-Fi驱动&Airport 
-* 蓝牙
+* Wi-Fi（免驱）&AirDrop&SideCar（Sidecar需要Catalina，另外可能需要运行几条zsh指令，需要保证所有设备登陆同一个Apple ID，**需要iPadOS13配合**，**有线模式必须使用C To L的线**）
+* 蓝牙（免驱）&handoff 
 * 原生电池控制
-* USB3.1
+* USB3.1&typeC （雷雳可驱动但是效果不好我删掉了 要驱动的话只要根据IOElectricity来做就行了）
 * 有线网卡驱动
 * 摄像头驱动
 * GPS
@@ -37,39 +38,21 @@ HP ZHAN99 WorkStation G1（惠普战99）
 * 触摸板
 * 睡眠以及唤醒
 
-**Catalina:**
-
-* CPU睿频 
-* 内建显示器 
-* AppleALC驱动声卡 
-* Wi-Fi驱动&Airport 
-* 蓝牙&handoff （handoff由于未登陆AppleID，没有测试）
-* 原生电池控制 
-* USB3.1支持 
-* type-C支持 
-* 有线网卡驱动 
-* 摄像头驱动
-* GPS 
-* 不会出现无背光的情况
-* 可以睡眠
 
 ### 未完成：
 
-**Mojave:**
 
 * 指纹无解
-* 雷雳、读卡器没有驱动
+* 读卡器没有驱动
+* 暂时不release雷雳的驱动
 
-**Catalina:**
-
-* 指纹无解
-* 雷雳*貌似*没有驱动
-* 十分失望的是，sidecar目前看来可能无法使用（不排除是因为我没登录AppleID，毕竟更新匆忙...大家自己测试吧，**需要iPadOS13配合**，**必须使用C To L的线**）
 
 ### 总体描述：
 
 **基本完美**
 
+### 安装须知：
 
+smbios部分上传之前已经随机生成 大家请记得去参照启用iMessage和FaceTime的方法去配置自己的smbios、rt variable 之类的地方，实测是可以完美的（需要BCM94360CS2支持）
 
 
