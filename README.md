@@ -3,7 +3,8 @@
 ## 系统支持
 
 macOS mojave 10.14Beta - 10.14.5(18F132) ——下载Mojave版本
-macOS Catalina 10.15Beta(19A487m) ——下载Catalina版本
+
+macOS Catalina 10.15Beta2(19A487m) - 10.15Beta4(19A512f) ——下载Catalina版本
 
 ## 平台简介
 
@@ -29,7 +30,8 @@ HP ZHAN99 WorkStation G1（惠普战99）
 * Wi-Fi（免驱）&AirDrop&SideCar（Sidecar需要Catalina，另外可能需要运行几条zsh指令，需要保证所有设备登陆同一个Apple ID，**需要iPadOS13配合**，**有线模式必须使用C To L的线**）
 * 蓝牙（免驱）&handoff 
 * 原生电池控制
-* USB3.1&typeC （雷雳可驱动但是效果不好我删掉了 要驱动的话只要根据IOElectricity来做就行了）
+* 3xUSB3.1接口
+* 雷雳三接口（需要自行安装雷电三文件夹里的文件）
 * 有线网卡驱动
 * 摄像头驱动
 * GPS
@@ -44,7 +46,6 @@ HP ZHAN99 WorkStation G1（惠普战99）
 
 * 指纹无解
 * 读卡器没有驱动
-* 暂时不release雷雳的驱动
 
 
 ### 总体描述：
@@ -53,6 +54,14 @@ HP ZHAN99 WorkStation G1（惠普战99）
 
 ### 安装须知：
 
-smbios部分上传之前已经随机生成 大家请记得去参照启用iMessage和FaceTime的方法去配置自己的smbios、rt variable 之类的地方，实测是可以完美的（需要BCM94360CS2支持）
+* SMBIOS部分上传之前已经随机生成 大家请记得去参照启用iMessage和FaceTime的方法去配置自己的smbios、rt variable 之类的地方，实测是可以完美的（需要BCM94360CS2支持）
 
+* 如果睡眠有问题，请注意检查是否勾选了唤醒以供网络访问
 
+* 建议勾选ACPI-SSDT-PluginType以启用xcpm
+
+### 阅读链接
+
+[雷电三](https://zhuanlan.zhihu.com/p/75536927)
+[Catalina](https://zhuanlan.zhihu.com/p/68774850)
+[Mojave](https://zhuanlan.zhihu.com/p/54927820)
