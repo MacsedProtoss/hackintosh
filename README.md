@@ -8,7 +8,7 @@ macOS Catalina 10.15Beta2(19A487m) - 10.15Beta5(19A526h) ——下载Catalina版
 
 ## 平台简介
 
-HP ZHAN99 WorkStation G1（惠普战99）
+HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 ### 主要配置
 
@@ -31,7 +31,7 @@ HP ZHAN99 WorkStation G1（惠普战99）
 * 蓝牙（免驱）&handoff 
 * 原生电池控制
 * 3xUSB3.1接口
-* 雷雳三接口（需要自行安装雷电三文件夹里的文件）
+* 雷雳三接口（使用HP thunderbolt3 Dock 测试通过）
 * 有线网卡驱动
 * 摄像头驱动
 * GPS
