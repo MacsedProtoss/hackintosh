@@ -23,7 +23,7 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 **Mojave&Catalina:**
 
-* CPU12阶睿频
+* CPU xcpm原生节能控制
 * 内建视网膜显示器（内建OK，视网膜要自己运行脚本）
 * UHD630 2048M
 * AppleALC驱动声卡
@@ -58,7 +58,6 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 * 如果睡眠有问题，请注意检查是否勾选了唤醒以供网络访问
 
-* 建议勾选ACPI-SSDT-PluginType以启用xcpm
 
 ### 阅读链接
 
