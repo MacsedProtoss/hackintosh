@@ -19,6 +19,11 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 * Broadcom BCM94360CS2 （Mac拆机卡+转接m.2卡，我之前用的dw1560现在价格炒得太高了，我卖了还赚了一笔，而且dw1560在Catalina里面蓝牙有问题，现在建议大家买我用的这个了，不过淘宝已经把它从35炒到了100多，真黑心）
 * Samsung pm961
 
+### 拓展坞
+
+* HP thunderbolt3 Dock
+
+
 ### 完成功能
 
 **Mojave&Catalina:**
