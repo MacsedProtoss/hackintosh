@@ -4,7 +4,7 @@
 
 macOS mojave 10.14Beta - 10.14.5(18F132) ——下载Mojave版本
 
-macOS Catalina 10.15Beta2(19A487m) - 10.15Beta5(19A526h) ——下载Catalina版本
+macOS Catalina 10.15Beta2(19A487m) - 10.15Beta8(19A558d) ——下载Catalina版本
 
 ## 平台简介
 
