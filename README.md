@@ -68,6 +68,8 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 ### 阅读链接
 
+[OpenCore](https://macsed.club/2020/03/28/Switch%20to%20OC%20from%20Clover/)
+
 [雷电三](https://zhuanlan.zhihu.com/p/75536927)
 
 [Catalina](https://zhuanlan.zhihu.com/p/68774850)
