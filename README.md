@@ -8,6 +8,12 @@ macOS Catalina 10.15Beta2(19A487m) - 10.15.4(19E266) ——下载Catalina版本 
 
 macOS Catalina 10.15.4(19E266) ——OpenCore版本
 
+## 安装须知
+
+请输入MLB ROM自己的等数据可以使用MacSerial来计算
+
+OpenCore 默认开启了开机Chime（登场音效），但是没有配备音频文件，若有需求可以自行下载然后解压到/Resources里面。
+
 ## 平台简介
 
 HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
