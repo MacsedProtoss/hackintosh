@@ -10,9 +10,17 @@ macOS Catalina 10.15.4(19E266) ——OpenCore版本
 
 ## 安装须知
 
-请输入MLB ROM自己的等数据可以使用MacSerial来计算
+**All：**
 
-OpenCore 默认开启了开机Chime（登场音效），但是没有配备音频文件，若有需求可以自行下载然后解压到/Resources里面。
+* 所有的SMBIOS相关都是随便初始化的，请自行输入数据，可以使用MacSerial来计算
+
+**OpenCore ：**
+
+* 默认开启了开机Chime（登场音效），但是没有配备音频文件，若有需求可以自行下载然后解压到/Resources里面
+* 为了Boot Camp和开机热键体验进行了这些修改，安装初期最好去掉这些
+  * 默认关闭了-v，请注意安装初期最好开起来
+  * 默认不会ShowPicker，建议安装初期启用ShowPicker（否则不会显示引导选项）
+  * 默认关闭了AllowSetDefault（允许设置默认引导项）
 
 ## 平台简介
 
@@ -27,14 +35,9 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 * Broadcom BCM94360CS2 （Mac拆机卡+转接m.2卡，我之前用的dw1560现在价格炒得太高了，我卖了还赚了一笔，而且dw1560在Catalina里面蓝牙有问题，现在建议大家买我用的这个了，不过淘宝已经把它从35炒到了100多，真黑心）
 * Samsung pm961
 
-### 拓展坞
-
-* HP thunderbolt3 Dock
-
-
 ### 完成功能
 
-**Mojave&Catalina:**
+**All:**
 
 * CPU xcpm原生节能控制
 * 内建视网膜显示器（内建OK，视网膜要自己运行脚本）
@@ -53,6 +56,15 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 * 触摸板
 * 睡眠以及唤醒
 
+**OpenCore**
+
+* 添加了CPUFriend来达到更好的变频效果
+* 增加了Chime支持
+* 增加了Boot Camp支持
+
+* 添加了CPUFriend来达到更好的变频效果了
+* 添加了CPUFriend来达到更好的变频效果    
+
 
 ### 未完成：
 
@@ -65,11 +77,10 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 **基本完美**
 
-### 安装须知：
-
-* SMBIOS部分上传之前已经随机生成 大家请记得去参照启用iMessage和FaceTime的方法去配置自己的smbios、rt variable 之类的地方，实测是可以完美的（需要BCM94360CS2支持）
+### 备注：
 
 * 如果睡眠有问题，请注意检查是否勾选了唤醒以供网络访问
+* 我使用的hibernationMod是3
 
 
 ### 阅读链接
