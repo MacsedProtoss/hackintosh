@@ -40,34 +40,31 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 **All:**
 
 * CPU xcpm原生节能控制
-* 内建视网膜显示器（内建OK，视网膜要自己运行脚本）
+* 内建显示器
 * UHD630 2048M
 * AppleALC驱动声卡
-* Wi-Fi（免驱）&AirDrop&SideCar（Sidecar需要Catalina，另外可能需要运行几条zsh指令，需要保证所有设备登陆同一个Apple ID，**需要iPadOS13配合**）
+* Wi-Fi（免驱）&AirDrop&SideCar（Sidecar需要Catalina，~~另外可能需要运行几条zsh指令~~，需要保证所有设备登陆同一个Apple ID，**需要iPadOS13配合**）
 * 蓝牙（免驱）&handoff 
 * 原生电池控制
 * 3xUSB3.1接口
-* 雷雳三接口（使用HP thunderbolt3 Dock 测试通过）
+* *雷雳三接口（使用HP thunderbolt3 Dock 测试通过）* **可能未被集成进入EFI，请查看下面的阅读链接来自行启用**
 * 有线网卡驱动
 * 摄像头驱动
 * GPS
-* 开机不会无背光
 * 亮度可调
-* 触摸板
+* 触摸板（但是体验一般般，我是直接配合Magic Trackpad 2）
 * 睡眠以及唤醒
+* 支持iMessage FaceTime App Store iCloud FindMy等功能（需要自己按照要求完善SMBIOS等内容）
 
 **OpenCore**
 
 * 添加了CPUFriend来达到更好的变频效果
 * 增加了Chime支持
-* 增加了Boot Camp支持
-
-* 添加了CPUFriend来达到更好的变频效果了
-* 添加了CPUFriend来达到更好的变频效果    
-
+* 增加了Boot Camp支持 
+* 支持直接Recovery在线恢复
+* 支持Time Machine直接恢复
 
 ### 未完成：
-
 
 * 指纹无解
 * 读卡器没有驱动
