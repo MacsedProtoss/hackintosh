@@ -82,10 +82,14 @@ HP ZHAN99 WorkStation G1（国行：惠普战99，外行：HP Zbook 15v G5）
 
 ### 阅读链接
 
-[OpenCore](https://macsed.club/2020/03/28/Switch%20to%20OC%20from%20Clover/)
+[OpenCore CFGLock和部分常见错误](https://macsed.club/2020/03/28/Switch%20to%20OC%20from%20Clover/)
+
+[OpenCore Boot Camp](https://macsed.club/2020/04/05/Opencore-%E6%97%A0%E7%BC%9DBoot-Camp%E5%88%87%E6%8D%A2/)
+
+[OpenCore Chime](https://macsed.club/2020/04/05/Opencore-Chime-%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/)
 
 [雷电三](https://zhuanlan.zhihu.com/p/75536927)
 
-[Catalina](https://zhuanlan.zhihu.com/p/68774850)
+[Clover Catalina](https://zhuanlan.zhihu.com/p/68774850)
 
-[Mojave](https://zhuanlan.zhihu.com/p/54927820)
+[CLover Mojave](https://zhuanlan.zhihu.com/p/54927820)
